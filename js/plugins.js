@@ -17,11 +17,11 @@ $(document).ready(function(){
   /* sync navbar with section */
   $(window).scroll(function(){
     $('.block').each(function(){
-      if($(window).scrollTop() > $(this).offset().top){
+      if($(window).scrollTop() > $(this).offset().top - 90){
         
         var blockID = $(this).attr('id');
 
-        $('#navbar-holder a').removeClass('active')
+        $('#navbar-holder .navbar .collapse a').parent().siblings().find('a').removeClass('active');
 
         $('#navbar-holder li a[data-scroll="' + blockID + '"]').addClass('active');
       }
@@ -38,34 +38,43 @@ $(document).ready(function(){
       speed: 300,
       slidesToShow: 3,
       slidesToScroll: 1,
-      autoplay:true,
+      autoplay:false,
 
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 992,
           settings: {
-            slidesToShow: 1,
-            autoplay:true,
+            slidesToShow: 2,
+            autoplay:false,
             slidesToScroll: 1,
             infinite: true,
             dots:false
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 768,
           settings: {
             slidesToShow: 1,
-            autoplay:true,
+            autoplay:false,
             slidesToScroll: 1
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 578,
           settings: {
             slidesToShow: 1,
-            autoplay:true,
+            autoplay:false,
             slidesToScroll: 1,
             dots:true
+          }
+        },
+      {
+        breakpoint: 340,
+          settings: {
+            slidesToShow: 1,
+            autoplay:false,
+            slidesToScroll: 1,
+            dots:false
           }
         }
        
@@ -82,9 +91,9 @@ $(document).ready(function(){
       slidesToScroll: 2,
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1200,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1,
             infinite: true,
             autoplay:true,
@@ -92,7 +101,7 @@ $(document).ready(function(){
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 992,
           settings: {
             slidesToShow: 1,
             autoplay:true,
@@ -102,7 +111,7 @@ $(document).ready(function(){
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 768,
           settings: {
             slidesToShow: 1,
             autoplay:true,
