@@ -35,17 +35,18 @@ $(document).ready(function(){
     $(this).slick({
       dots: false,
       infinite: false,
-      speed: 300,
+      speed: 250,
       slidesToShow: 3,
       slidesToScroll: 1,
-      autoplay:false,
+      autoplay:true,
+      
 
       responsive: [
         {
           breakpoint: 992,
           settings: {
             slidesToShow: 2,
-            autoplay:false,
+            autoplay:true,
             slidesToScroll: 1,
             infinite: true,
             dots:false
@@ -55,7 +56,7 @@ $(document).ready(function(){
           breakpoint: 768,
           settings: {
             slidesToShow: 1,
-            autoplay:false,
+            autoplay:true,
             slidesToScroll: 1
           }
         },
@@ -63,7 +64,7 @@ $(document).ready(function(){
           breakpoint: 578,
           settings: {
             slidesToShow: 1,
-            autoplay:false,
+            autoplay:true,
             slidesToScroll: 1,
             dots:true
           }
@@ -72,7 +73,7 @@ $(document).ready(function(){
         breakpoint: 340,
           settings: {
             slidesToShow: 1,
-            autoplay:false,
+            autoplay:true,
             slidesToScroll: 1,
             dots:false
           }
@@ -85,7 +86,7 @@ $(document).ready(function(){
     $('.newblog').slick({
       dots: false,
       infinite: false,
-      speed: 300,
+      speed: 250,
       slidesToShow: 2,
       autoplay:true,
       slidesToScroll: 2,
