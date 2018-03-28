@@ -1,0 +1,1457 @@
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th{
+    border-top: none;
+    line-height: 1.6;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* starting work on navbar */
+#navbar-holder .navbar{
+    min-height: 78px;
+}
+#navbar-holder .navbar-inverse{
+   background-color: #337ab7e8;
+    border: none;
+    border-radius: 0;
+}
+#navbar-holder .navbar .navbar-brand {
+    padding: 9px 15px;
+
+}
+#navbar-holder .navbar .navbar-brand img{
+    width: 155px;
+}
+#navbar-holder .navbar .navbar-collapse{
+    padding-top: 17px;
+
+}
+#navbar-holder  .navbar-inverse  .navbar-collapse ul{
+    color: #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    font-weight: 700;
+}
+#navbar-holder  .navbar-inverse .navbar-nav > li > a{
+    color: #f5f5f5;
+    position: relative;
+
+}
+
+#navbar-holder  .navbar-inverse .navbar-nav > li > a:hover,
+#navbar-holder  .navbar-inverse .navbar-nav .active,
+#navbar-holder  .navbar-inverse .navbar-nav > li > a:focus {
+    color: #555;
+}   
+#navbar-holder  .navbar-inverse .navbar-nav > li > a:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #555;
+    height: 2px;
+    transition: all .5s;
+
+}
+#navbar-holder  .navbar-inverse .navbar-nav > li > a:hover:after,
+#navbar-holder  .navbar-inverse .navbar-nav .active:after,
+#navbar-holder  .navbar-inverse .navbar-nav > li > a:focus:after{
+    width: 100%;
+}
+
+
+/* ending work on navbar */
+
+/* starting work on slider */
+
+
+#slider-holder .carousel-inner > .item > img
+{
+    width: 100%;
+    height: 700px;
+}
+#slider-holder .carousel-control.left i,
+#slider-holder .carousel-control.right i{
+    background: transparent;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 1.6;
+}
+
+#slider-holder .carousel-control{
+    opacity: 1;
+    color: #333333;
+}
+#slider-holder .carousel-control:hover,
+ .carousel-control:focus{
+     color:#333333;
+ }
+
+ #slider-holder .carousel-caption{
+
+    bottom: 200px;
+ } 
+ #slider-holder .carousel-caption h1{
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 1px;
+    font-size: 54px;
+    font-family: 'Raleway', sans-serif;
+
+
+ }
+ #slider-holder .carousel-caption p {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    font-family: 'Raleway', sans-serif;
+
+ }
+ #slider-holder .carousel-caption .btn{
+    padding: 13px 25px;
+    font-size: 15px;
+    font-weight:700;
+    margin-top: 8px;
+    border-color: #fff;
+
+ }
+ #slider-holder .carousel-caption .btn:hover{
+     color: #fff;
+     background-color: transparent;
+ }
+
+/* ending work on slider */
+
+/* starting work on about us */
+#about-holder{
+    margin-top: 50px;
+}
+#about-holder .about-holder-description h1{
+font-weight: 700;
+font-size: 36px;
+color: #fcb941;
+font-family: 'Courgette', cursive;
+}
+#about-holder .about-holder-description h3{
+    font-weight: 600;
+    font-size: 18px;
+    color: #3e4f5c;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+}
+#about-holder .about-holder-description hr{
+    border-top: 2px solid #fcb941;
+    margin-top: 24px;
+    margin-bottom: 28px;
+    
+}
+#about-holder .about-holder-description p{
+font-size: 15px;
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+line-height: 1.6;
+
+}
+#about-holder .about-holder-description .btn{
+    padding: 15px 27px;
+    font-size: 15px;
+    font-weight:700;
+    margin-top: 8px;
+    color: #fff;
+    border-color: black;
+    background: black;
+    transition: all .1s ease-in-out;
+}
+#about-holder .about-holder-description .btn:hover{
+    color: black;
+    background-color: #fff;
+}
+#about-holder .about-holder-profile  {
+    position: relative;
+    margin-top: 44px;
+}
+#about-holder .about-holder-profile .btn{
+    position: absolute;
+    left: 25%;
+    top: 46%;
+    padding: 15px 80px;
+    border-color: #fff;
+    background: none;
+    color: #fff;
+    font-weight: 800;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+#about-holder .about-holder-profile .btn:hover,#about-holder .about-holder-profile .btn:focus{
+    background: #fff;
+    color: #1c1c1c;
+    
+}
+
+/* ending work on about us */
+
+/* start work on surprise */
+#surprise-holder{
+    background-color: #1C1C1C;
+    margin-top: 86px;
+    color: #fff;
+    height: 320px;
+}
+#surprise-holder .surprise{
+    margin-top: 62px;
+}
+#surprise-holder .surprise h1{
+    margin-bottom: 90px;
+    font-weight: 700;
+font-size: 36px;
+
+font-family: 'Courgette', cursive;
+
+}
+#surprise-holder .surprise i{
+    color: #fcb941;
+    font-size: 77px;
+}
+
+/* end work on surprise */
+
+/* starting work on week specail */
+#week-special {
+    margin-top: 70px;
+
+}
+#week-special .row.weekly{
+    margin-top: 69px;
+    margin-bottom: 24px;
+}
+#week-special  h1{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Courgette', cursive;
+    color: #fcb941;
+}
+#week-special  .weekall{
+    position: relative;
+    margin-bottom: 30px;
+
+    
+}
+#week-special  .weekall img,#events-holder  .weekall img{
+    filter: brightness(1);
+    transition: 0.4s;
+}
+#week-special .weekall .week-deatils {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 100%;
+    color: #fff;
+}
+#week-special .deatils{
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    opacity: 0;
+    transition: 0.4s;
+    
+
+}
+#week-special .deatils h3{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.6;
+    
+}
+#week-special .deatils p{
+font-weight: 400;
+font-size: 15px;
+
+}
+#week-special .deatils .btn{
+    background: transparent none repeat scroll 0 0;
+    color: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    padding: 0.9em 5em;
+    display: inline-block;
+    background: none;
+    letter-spacing: 2px;
+    -webkit-transition: 0.4s;
+    transition: 0.5s;
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 15px;
+}
+#week-special .deatils .btn:hover{
+    color: #1c1c1c;
+    background: #fff;
+}
+#week-special .weekall:hover img,#events-holder .weekall:hover img{
+    filter: brightness(0.4);
+
+}
+#week-special .weekall:hover .deatils,#events-holder .weekall:hover .deatils{
+    opacity: 1;
+    
+}
+
+/* ending work on week sepcail */
+
+/* starting work on menu */
+#menu-holder{
+    margin-top: 70px;
+   
+}
+#menu-holder .row{
+    margin-bottom: 30px;
+}
+#menu-holder h1{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Courgette', cursive;
+    color: #fcb941;
+    margin-bottom: 50px;
+}
+#menu-holder .menu-image{
+    background-image: url(../images/menu1.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: inline-block;
+    background-attachment: scroll;
+}
+#menu-holder .menu-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+#menu-holder .media-left{
+    padding-top: 18px;
+
+}
+
+#menu-holder .media-right .table{
+    margin-bottom: 0;
+}
+#menu-holder .media-right .table a{
+    text-decoration: none;
+    outline: none;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    color: #3e4f5c;
+}
+#menu-holder .media-right .table h3{
+    color: #fcb941;
+    font-size: 22px;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+#menu-holder .media-right .table td{
+    border:none;
+    line-height: 1.6;
+    
+
+}
+#menu-holder .media-right .table .tdd{
+    line-height: 3;
+}
+#menu-holder .menu-price{
+    display: inline-block;
+    color: #fcb941;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 41px;
+
+}
+#menu-holder p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+/* ending work on menu */
+
+/* starting work on birthday */
+    #birthday-holder{
+        margin-top: 100px;
+        width: 100%;
+        height: 326px;
+        background-size: cover;
+        background-position: center center;
+
+    }
+    #birthday-holder .birthday{
+        margin-top: 39px;
+    }
+    #birthday-holder .birthday h1{
+        font-weight: 700;
+        font-size: 36px;
+        color: #fff;
+        font-family: 'Courgette', cursive;
+        letter-spacing: 1px;
+        margin-bottom: 26px;
+
+    }
+    #birthday-holder .birthday h5{
+        font-size: 15px;
+        color: #fcb941;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    #birthday-holder .birthday p{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: 1px;
+        color: #ffffff;
+        margin-bottom: 21px;
+    }
+    #birthday-holder .btn{
+        padding: 13px 27px;
+        background-color: #fcb941;
+        border-color: #fcb941;
+        font-size: 15px;
+        font-weight: 700;
+
+    }
+/* ending work on birthday */
+
+/* starting work on events */
+#events-holder{
+    margin-top: 70px;
+    position: relative;
+
+}
+#events-holder .events-describe h1{
+    font-weight: 700;
+    font-size: 36px;
+    color: #fcb941;
+    font-family: 'Courgette', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 80px;
+}
+#events-holder  .deatils .btn{
+    background: none;
+    color: #fff;
+    padding: 21px 25px;
+    border-color: #fcb941;
+}
+#events-holder  .deatils .btn:hover{
+    background: #fcb941;
+}
+#events-holder       .weekall{
+    position: relative;
+}
+#events-holder   .weekall .islam{
+    position: absolute;
+    top: 31%;
+    left: -16px;
+    font-family: 'Raleway', sans-serif;
+    opacity: 0;
+}
+#events-holder   .weekall:hover .islam{
+    opacity: 1;
+}
+#events-holder   .weekall .islam h1{
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+}
+#events-holder   .weekall .islam p{
+    color: #fff;
+    font-weight: 400;
+    font-weight: 15px;
+}
+#events-holder   .weekall .islam .btn{
+    padding: 20px 25px;
+    background: none;
+    border-color: #fcb941;
+}
+#events-holder   .weekall .islam .btn:hover{
+    background: #fcb941;
+}
+
+
+/* ending work on events */
+
+/* starting work on booking a table */
+#booking-table{
+    margin-top: 70px;
+}
+
+#booking-table .booking-describe h1{
+    font-weight: 700;
+    font-size: 36px;
+    color: #fcb941;
+    font-family: 'Courgette', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+#booking-table .booking-describe p{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 30px;
+}
+
+#booking-table .booking-input input{
+    width: 100%;
+    color: #fff;
+    background-color: #1c1c1c;
+}
+#booking-table .booking-input
+{
+    margin-bottom: 15px;
+}
+#booking-table .booking-input .form-control{
+    height: 40px;
+}
+#booking-table .booking-input input:focus{
+    border-color: #1c1c1c;
+    box-shadow: none;
+    height: 40px;
+
+}
+#booking-table  .reserve-table{
+    margin-top: 10px;
+}
+#booking-table  .reserve-table .btn{
+    background-color: #1c1c1c;
+    border-color: #1c1c1c;
+    padding: 14px 31px;
+    border-radius: 1px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+#booking-table  .reserve-table .btn:hover{
+    background: #fff;
+    color: #1C1C1C;
+}
+
+/* ending work on booking a table */
+/* starting work on shafes team */
+#ourshafes{
+    margin-top: 70px;
+}
+#ourshafes h1{
+    margin-bottom: 70px;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: 'Courgette', cursive;
+    color: #fcb941;
+
+}
+#ourshafes .ourshafes-description img{
+    filter: brightness(1);
+    transition: 0.3s;
+}
+#ourshafes .ourshafes-description:hover img{
+    filter: brightness(0.4)
+}
+#ourshafes .ourshafes-description{
+    position: relative;
+}
+#ourshafes .ourshafes-description ul{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    transition: 0.3s;
+    opacity: 0;
+}
+#ourshafes .ourshafes-description:hover ul{
+    opacity: 1;
+}
+#ourshafes .ourshafes-description ul a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 2.6;
+    color: #ffffff;
+    background-color: transparent;
+}
+#ourshafes .ourshafes-description ul a:hover{
+    color: #1ec0ff;
+    background-color: #ffffff;
+}
+#ourshafes .shafes-description{
+    position: absolute;
+    bottom: 6%;
+    left: 66px;
+    background: #fff;
+    border: 1px solid #fff;
+    width: 65%;
+    padding: 3px;
+    border-radius: 2px;
+    text-align: center;
+    transition: 0.4s;
+    opacity: 0;
+}
+#ourshafes .ourshafes-description:hover .shafes-description{
+    opacity: 1;
+}
+#ourshafes .shafes-description h4{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+#ourshafes .shafes-description h5{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fcb941;
+    font-family: 'Raleway', sans-serif;
+}
+/* ending work on shafes team */
+
+/* starting work on blogs */
+#blog-new {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+#blog-new h1{
+    margin-bottom: 70px;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: 'Courgette', cursive;
+    color: #fcb941;
+}
+
+#blog-new .blog-holder{
+    position: relative;
+    height: 276px;
+
+}
+
+#blog-new .blog-new .blogimage{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 93%;
+}
+#blog-new .blog-new {
+    background-color: #000000;
+    opacity: 1;
+
+}
+
+#blog-new .blog-new .blog-des{
+    padding: 24px 30px;
+    color: #fcb941;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#blog-new .blog-new .blog-des span{
+    margin-left: 6px;
+    padding-left: 10px;
+    border-left: 2px solid #fcb941;
+}
+#blog-new .blog-new .blog-des a{
+    color: #fcb941;
+    text-decoration: none;
+
+
+}
+#blog-new .blog-new .blog-des h3{
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 24px;
+
+}
+#blog-new .blog-new .blog-paragraph{
+    padding: 2px 28px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+
+
+}
+#blog-new .blog-new .blog-paragraph a{
+    text-decoration: none;
+    color: #fff;
+
+} 
+
+#blog-new .blog-paragraph a:after{
+    content: '\f0da';
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    margin:0px 0px 0px 10px;
+    text-decoration:none;
+    transition: 0.4s;
+    transform: translateY(2px);
+    opacity: 0;
+
+}
+#blog-new .blog-paragraph a:hover:after{
+    opacity: 1;
+
+}
+
+ 
+
+/* ending work on blogs */
+
+/* starting footer */
+#footer-holder{
+    background-color: #1C1C1C;
+    color: #ffffff;
+
+}
+#footer-holder .media{
+    margin-top: 50px;
+}
+
+#footer-holder .media .media-right h5{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+
+}
+#footer-holder .menu-table {
+    margin-top: 30px;
+}
+#footer-holder .menu-table span {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    color: #fcb941;
+}
+#footer-holder .address 
+{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 50px;
+
+}
+#footer-holder .address p{
+    margin: 0;
+  
+}
+#footer-holder .address strong{
+    color: #fcb941;
+}
+#footer-holder .address  a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+#footer-holder .address  a:hover{
+    color: #fcb941;
+
+}
+#footer-holder .address .list-inline i{
+    padding-right: 11px;
+
+}
+/* Ending footer */
+
+/* responsvie Design */
+
+@media(max-width:576px){
+    
+     /* start navbar */
+     #navbar-holder .navbar{
+        min-height: 55px;
+    }
+    #navbar-holder .navbar .navbar-brand img {
+        width: 87px;
+    }
+
+    /*end navbar 
+    /* start slider */
+    #slider-holder .carousel-inner > .item > img{
+        height: 330px;
+    }
+    #slider-holder .carousel-caption {
+        bottom: 34px;
+    }
+    #slider-holder .carousel-caption h1{
+    font-weight: 600;
+    font-size: 15px;    }
+    #slider-holder .carousel-caption p{
+        font-size: 9px;    }
+    #slider-holder .carousel-caption .btn{
+        padding: 3px 4px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    #slider-holder .carousel-control.left i, #slider-holder .carousel-control.right i{
+        width: 30px;
+        height: 30px;
+        line-height: 1.5;
+    }
+    .carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right{
+        top: 60%;
+    }
+    /* end slider */
+    /* start about us */
+    #about-holder {
+        margin-top: 12px;
+    }
+
+    #about-holder .about-holder-description h1{
+        font-size: 25px;
+         margin-bottom: -5px;
+    }
+    #about-holder .about-holder-description h3{
+        font-size: 12px;
+        margin-bottom: -7px;
+    }
+    #about-holder .about-holder-description hr{
+        margin-bottom: 18px;
+    }
+    #about-holder .about-holder-description p{
+        font-size: 10px;
+    }
+    #about-holder .about-holder-description .btn{
+        padding: 6px 5px;
+        font-size: 10px;
+    }
+    #about-holder .hiddeen{
+        display: none;
+    }
+
+    /* end about us */
+    /* start surprise */
+    #surprise-holder {
+        margin-top: 20px;
+        height: 130px;
+    }
+    #surprise-holder .surprise {
+
+        margin-top: 30px;
+    
+    }
+    #surprise-holder .surprise h1{
+        margin-bottom: 9px;
+        font-size: 25px;
+    }
+    #surprise-holder .surprise i{
+        font-size: 45px;
+    }
+
+    /* end surprise*/
+    /* start week specail */
+    #week-special {
+        margin-top: 12px;
+    }
+    #week-special .deatils {
+        padding: 0px;
+    }
+    #week-special h1 {
+        font-size: 25px;
+    }
+    #week-special .row.weekly{
+        margin-top: 20px;
+        margin-left: 95px;
+        margin-bottom: 0px;
+    }
+    #week-special .weekall{
+        margin-bottom: 10px;
+    }
+    #week-special .weekall img{
+        width: 50%;
+    }
+    #week-special .weekall .week-deatils{
+        width: 50%;
+        top: 2%;
+        left: 0px;
+            }
+        #week-special .deatils h3 {
+            font-size: 10px;
+        }
+        #week-special .deatils p {
+            font-weight: 300;
+            font-size: 7px;
+        }
+    #week-special .deatils .btn {
+        padding: 5px 4px;
+        font-weight: 500;
+        font-size: 5px;
+        margin-top: -1px;
+        border-radius: 1px;
+    }
+    
+    /* end week specail */
+
+    /* start menu */
+    #menu-holder {
+        margin-top: 12px;
+        }
+    #menu-holder h1{
+        margin-bottom: 12px;
+        font-size: 25px;
+    }
+    #menu-holder .row {
+
+        margin-bottom: 6px;
+    
+    }
+    #menu-holder .media-left {
+
+        padding-top: 32px;
+    
+    }
+    #menu-holder .menu-image img{
+        border-radius: 0px;
+    }
+    #menu-holder .media-right .table h3{
+        font-size: 15px;
+    }
+
+    #menu-holder .menu-price{
+        font-size: 20px;
+    }
+    #menu-holder p{
+        font-size: 13px;
+    }
+    /* end menu */
+
+    /* start birthday */
+    #birthday-holder{
+        margin-top: 16px;
+        height: 300px;
+    }
+    #birthday-holder .birthday {
+        margin-top: 8px;
+    }
+    #birthday-holder .birthday h1{
+        font-size: 20px;
+    }
+    #birthday-holder .birthday h5 {
+        font-size: 12px;
+    }
+    #birthday-holder .birthday p{
+        font-size: 11px;
+    }
+    #birthday-holder .btn {
+        padding: 6px 5px;
+        font-size: 10px;
+    }
+   
+    /* end birthday */
+   /* start events */
+   #events-holder{
+    margin-top: 12px;
+    width: 97%;
+   }
+   #events-holder .events-describe h1{
+    font-size: 25px;
+    margin-bottom: 42px;
+   
+   }
+   #events-holder .weekall{
+    margin-left: 30px;
+   }
+  
+   #events-holder img{
+    width: 90%;   }
+    #events-holder .weekall .islam{
+        width: 70%;
+        top: 21%;
+        left: 31px;
+    }
+    #events-holder .weekall .islam .btn {
+        padding: 10px 14px;
+    }
+    #events-holder .weekall .islam h1 {
+        
+        font-size: 13px;
+    }
+    #events-holder .weekall .islam p{
+        font-size: 11px;
+    }
+  
+   /* end events */
+   /* start book a table */
+   #booking-table {
+    margin-top: 12px;
+    }
+    #booking-table .booking-describe h1{
+        font-size: 25px;
+        margin-bottom: 24px;
+    }
+    #booking-table .booking-describe p{
+        font-size: 10px;
+    }
+    #booking-table .reserve-table .btn {
+    
+        padding: 6px 5px;
+        font-size: 10px;
+    }
+   /* end  book a table */
+   /* start our shafes */
+   #ourshafes {
+
+    margin-top: 38px;
+
+    }
+    #ourshafes h1 {
+
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
+    #ourshafes .ourshafes-description{
+        margin-bottom: 12px;
+    }
+    #ourshafes .ourshafes-description img{
+        width: 50%;
+    }
+    #ourshafes .ourshafes-description ul {
+
+        right: 80px;
+    }
+    #ourshafes .ourshafes-description ul a{
+        width: 28px;
+        height: 28px;
+        line-height: 2.3;
+    }
+    #ourshafes .shafes-description {
+
+        left: 115px;
+        width: 28%;
+        padding: 0px;
+    }
+    #ourshafes .shafes-description h4 {
+
+        font-size: 10px;
+    }
+    #ourshafes .shafes-description h5 {
+
+        font-size: 8px;
+    }
+
+
+   /* end our shafes */
+   /* start blogs */
+   #blog-new {
+    margin-top: 12px;
+    margin-bottom: 40px;
+    width: 97%;
+   }
+   #blog-new h1 {
+
+    margin-bottom: 35px;
+    font-weight: 700;
+    font-size: 25px;
+   }
+   #blog-new .newblog{
+       margin-left: 20px;
+   }
+   #blog-new .blog-new .blog-paragraph {
+
+    padding: 1px 28px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 17px;
+   }
+   #blog-new .blog-new .blog-des{
+    padding: 11px 30px;
+   }
+   /* end blogs */
+   
+}
+
+/*screen 768 */
+
+@media (max-width: 768px) {  
+    /* starting slider */
+    #slider-holder .carousel-inner > .item > img{
+       height: 400px;
+    }
+    #slider-holder .carousel-caption {
+        bottom: 68px;
+   }
+   #slider-holder .carousel-caption h1{
+    font-size: 31px;
+   }
+   #slider-holder .carousel-caption p{
+    font-size: 12px;
+   }
+   #slider-holder .carousel-caption .btn {
+
+    padding: 9px 8px;
+    font-size: 12px;
+    font-weight: 600;
+   }
+   #slider-holder .carousel-control.left i, #slider-holder .carousel-control.right i {
+    width: 43px;
+    height: 36px;
+    border-radius: 1px;
+   }
+    /*ending slider */
+    /*start about */
+    #about-holder {
+
+        margin-top: 20px;
+    
+    }
+    #about-holder .about-holder-description h1 {
+
+        font-weight: 700;
+        font-size: 30px;
+
+    }
+    #about-holder .about-holder-description h3 {
+
+        font-weight: 600;
+        font-size: 15px;
+    }
+    #about-holder .about-holder-description hr {
+        margin-top: 19px;
+        margin-bottom: 18px;
+    }
+    #about-holder .about-holder-description .btn {
+
+        padding: 9px 10px;
+        font-size: 13px;
+    }
+    #about-holder .about-holder-profile {
+        text-align: left;
+    
+    }
+    #about-holder .about-holder-profile .btn {
+        left: 13%;
+        top: 46%;
+        padding: 9px 53px;
+    }
+    /* ending about about us */
+    /* start surprise holder */
+    #surprise-holder {
+        margin-top: 60px;
+        height: 180px;
+    }
+    #surprise-holder .surprise{
+        margin-top: 0;
+    }
+    #surprise-holder .surprise h1 {
+
+        margin-bottom: 50px;
+        font-size: 25px;
+    }
+    #surprise-holder .surprise i {
+
+        color: #fcb941;
+        font-size: 50px;
+    
+    }
+    /* end surprise holder */
+   
+    /*start  week specail */
+    #week-special {
+
+        margin-top: 20px;
+    
+    }
+    week-special h1 {
+
+        font-size: 30px;
+    }
+    #week-special .row.weekly {
+
+        margin-top: 42px;
+        margin-bottom: 0;
+        margin-left: 105px;
+    }
+    #week-special .weekall{
+       margin-bottom: 25px;
+    }
+    #week-special .weekall .week-deatils{
+        left: 27px;
+
+        top: 25%;
+        
+        width: 70%;
+    }
+    #week-special .deatils h3{
+       font-size: 22px;
+    }
+    #week-special .deatils p{
+       font-size: 14px;
+    }
+    #week-special .deatils .btn{
+       padding: 12px 14px;
+    }
+    /* end week specail */
+   
+    /* start work on menu*/
+    #menu-holder{
+       margin-top: 0px;
+    }
+    #menu-holder h1 {
+
+        font-size: 30px;
+        margin-bottom: 21px;
+    }
+    #menu-holder .row{
+        margin-bottom: 2px;
+    }
+    #menu-holder .media-left {
+
+        padding-top: 39px;
+    
+    }
+    #menu-holder .menu-image{
+       width: 55px;
+    }
+    #menu-holder .menu-image img{
+        border-radius: 0;
+    }
+    /* end work menu */
+   
+    /* start with birthday party */
+    #birthday-holder{
+       margin-top: 0px;
+    }
+    #birthday-holder .birthday h1 {
+
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 26px;
+    }
+    #birthday-holder .birthday h5 {
+
+        font-size: 13px;
+        color: #fcb941;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    #birthday-holder .btn {
+
+        padding: 10px 22px;
+    }
+    /* ending with birthday party */
+    /* starting with events */
+    #events-holder{
+       margin-top: 25px;
+       width: 90%;
+    }
+    #events-holder .weekall {
+
+        position: relative;
+        margin-left: 105px;
+        }
+    #events-holder .events-describe h1{
+       margin-bottom: 50px;
+    }
+     #events-holder .weekall img{
+       width: 330px;     
+     }
+     #events-holder .weekall .islam{
+       width: 280px;
+       left: 26px; }
+    /* ending with events */
+   
+    /* start shift */
+    #ourshafes {
+
+        margin-top: 20px;
+    
+    }
+    #ourshafes .shafes{
+        width: 380px;
+    }
+    #ourshafes .ourshafes-description {
+        margin-left: 71px;
+        margin-bottom: 25px;
+    }
+    #ourshafes .ourshafes-description img{
+       width: 100%;
+    }
+    #ourshafes .ourshafes-description ul {
+        right: 119px;
+    }
+    #ourshafes .shafes-description {
+        width: 46%;
+    }
+    /* end shifts */
+   
+    /* starting blogs */
+    #blog-new {
+   
+          
+       margin-bottom: 46px;
+       width: 92%;
+   
+   }
+    #blog-new .blog-new .blog-des {
+       padding: 11px 30px;
+    }
+    /* end blogs */
+   
+   }
+
+   @media(max-width:992px){
+       /* starting slider edit */
+ #slider-holder .carousel-inner > .item > img {
+    height: 500px;
+ }
+ #slider-holder .carousel-caption{
+    bottom: 70px;
+ }
+ #slider-holder .carousel-caption h1{
+    font-size: 36px;
+ }
+ #slider-holder .carousel-caption p{
+    font-size: 16px;
+    margin-bottom: 12px;
+ }
+ #slider-holder .carousel-caption .btn{
+    margin-top: 20px;
+ }
+
+ /* ending slider edit */
+ /*start about */
+ #about-holder .about-holder-profile img{
+    width: 100%;
+ }
+ #about-holder .about-holder-profile .btn{
+    left: 6%;
+ }
+ /* ending about about us */
+ /* start surprise holder */
+ #surprise-holder {
+    height: 209px;
+    margin-top: 40px;
+ }
+ #surprise-holder .surprise {
+    margin-top: 24px;
+}
+#surprise-holder .surprise h1 {
+    margin-bottom: 65px;
+    font-size: 25px;
+}
+#surprise-holder .surprise i {
+    font-size: 55px;
+}
+ /* end surprise holder */
+ 
+ /* starting week specail */
+ #week-special .weekall .week-deatils{
+    top: 2%;
+    width: 94%;
+ }
+ #week-special .deatils h3 {
+    font-size: 15px;
+ }
+ #week-special .deatils p {
+    font-weight: 400;
+    font-size: 13px;
+ }
+ #week-special .deatils .btn {
+    border-radius: 1px;
+    padding: 10px 8px;
+ }
+ /* ending week special */
+ /* start menu */
+ #menu-holder {
+    margin-top: -21px;
+}
+ /* end menu */
+ /* starting birthday party */
+ #week-special {
+    margin-top: 15px;
+}
+#week-special .row.weekly {
+    margin-top: 35px;
+}
+ #birthday-holder .birthday{
+    margin-top: 27px;
+ }
+ /* ending birthday party */
+
+ /* starting edit on events */
+ #events-holder {
+    margin-top: 25px;
+
+}
+#events-holder .events-describe h1 {
+    font-size: 35px;
+    margin-bottom: 56px;
+}
+#events-holder .row.events-holder-row{
+    margin-left: 176px;
+}
+
+ #events-holder .autoplay{
+    margin-left: 45px;
+ }
+ #events-holder .weekall .islam{
+    width: 280px;
+    left: 45px;
+ }
+ 
+ /* ening edit on events */
+ /* starting our shafes team */
+ #ourshafes {
+    margin-top: 26px;
+}
+#ourshafes h1 {
+    margin-bottom: 49px;
+}
+#ourshafes .shafes-description {
+    bottom: 6%;
+    left: 38px;
+    width: 65%;
+    padding: 0px;
+}
+#ourshafes .shafes-description h4 {
+    font-size: 16px;
+}
+#ourshafes .shafes-description h5 {
+    font-size: 13px;
+}
+ #ourshafes .ourshafes-description ul{
+    right: 0;
+ }
+ #ourshafes .ourshafes-description img{
+    width: 100%;
+ }
+ /* ending our shafes team */
+ /*starrt blogs */
+ #blog-new {
+    margin-top: 19px;
+    margin-bottom: 30px;
+ }
+ #blog-new .blog-new .blogimage {
+   
+    background-size: cover;
+    width: 100%;
+ }
+ #blog-new .blog-new .blog-des{
+     text-align: center;
+
+ }
+ #blog-new .blog-new .blog-paragraph{
+     text-align: center;
+ }
+
+ /* end blogs */
+}
+

@@ -1,0 +1,112 @@
+/* start max width 360 */
+@media (max-width: 360px){
+/* starting slider */
+#slider-holder .carousel-inner > .item > img{
+    height: 450px;
+
+}
+#slider-holder .carousel-inner > .item > img{
+    background-size: cover;
+
+}
+#slider-holder .carousel-control.left i, #slider-holder .carousel-control.right i{
+    line-height: 2.5;
+
+}
+#slider-holder .carousel-caption{
+    bottom: 0;
+}
+#slider-holder .carousel-caption h1{
+    font-size: 30px;
+}
+#slider-holder .carousel-caption p{
+    font-size: 15px;
+
+}
+/* ending slider */
+/* starting ABOUT us */
+#about-holder .about-holder-profile .btn{
+    left: 5%;
+}
+#about-holder img{
+    width: 330px;
+}
+/* ending about us */
+/* starting work on surprise plate */
+#surprise-holder .surprise {
+    margin-top: 38px;
+}
+/* ending work on surprise plate */
+
+/*starting on week speical */
+#week-special{
+    margin-top: 10px;
+}
+#week-special .row.weekly{
+    margin-top: 40px;
+}
+#week-special .weekall{
+    margin-bottom: 25px;
+}
+/*starting on week speical*/
+/* starting with menu */
+#menu-holder{
+    margin-top: 10px;
+}
+/* ending with menu */
+
+/* starting work on birthday party  */
+#birthday-holder{
+    margin-top: 10px;
+}
+#birthday-holder{
+    height: 437px;
+}
+/* ending work on birthday party*/
+
+/* starting events */
+#events-holder{
+    margin-top: 10px;
+
+}
+#events-holder .events-describe h1{
+    margin-bottom: 50px;
+}
+#events-holder .weekall .islam{
+    left: 5px;
+}
+
+/* ending events */
+
+/* starting book table */
+#booking-table .booking-describe h1{
+    margin-bottom: 32px;
+}
+/* ending book table */
+/* starting our shafes */
+#ourshafes {
+    margin-top: 30px;
+}
+#ourshafes .ourshafes-description {
+    margin-bottom: 30px;
+}
+#ourshafes .ourshafes-description img{
+    width: 330px;
+}
+/* ending our shafes */
+
+/* starting blogs */
+#blog-new{
+    margin-top: 0;
+}
+#blog-new .blog-new .blog-des{
+    padding: 14px 30px;
+}
+#blog-new .blog-new .blog-paragraph{
+    font-size: 12px;
+}
+
+/* ending blogs */
+}
+
+/* end mex width 360 */

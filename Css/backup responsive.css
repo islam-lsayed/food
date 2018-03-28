@@ -1,0 +1,571 @@
+/* responsive design */
+@media (min-width: 360px){
+    /* start navbar */
+    #navbar-holder .navbar{
+        min-height: 55px;
+    }
+    #navbar-holder .navbar .navbar-brand img {
+        width: 87px;
+    }
+
+    /*end navbar 
+    /* start slider */
+    #slider-holder .carousel-inner > .item > img{
+        height: 330px;
+    }
+    #slider-holder .carousel-caption h1{
+    font-weight: 600;
+    font-size: 15px;    }
+    #slider-holder .carousel-caption p{
+        font-size: 9px;    }
+    #slider-holder .carousel-caption .btn{
+        padding: 3px 4px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    #slider-holder .carousel-control.left i, #slider-holder .carousel-control.right i{
+        width: 30px;
+        height: 30px;
+        line-height: 1.5;
+    }
+    .carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right{
+        top: 60%;
+    }
+    /* end slider */
+    /* start about us */
+    #about-holder {
+        margin-top: 12px;
+    }
+
+    #about-holder .about-holder-description h1{
+        font-size: 30px;
+        margin-bottom: -5px;
+    }
+    #about-holder .about-holder-description h3{
+        font-size: 13px;
+        margin-bottom: -7px;
+    }
+    #about-holder .about-holder-description hr{
+        margin-bottom: 18px;
+    }
+    #about-holder .about-holder-description p{
+        font-size: 13px;
+    }
+    #about-holder .about-holder-description .btn{
+        padding: 7px 6px;
+        font-size: 13px;
+    }
+    #about-holder .hiddeen{
+        display: none;
+    }
+
+    /* end about us */
+    /* start surprise */
+    #surprise-holder {
+        margin-top: 40px;
+        height: 211px; 
+    }
+    #surprise-holder .surprise h1{
+        margin-bottom: 40px;
+        font-size: 20px;
+    }
+    #surprise-holder .surprise i{
+        font-size: 45px;
+    }
+
+    /* end surprise*/
+    /* start week specail */
+    #week-special {
+        margin-top: 9px;
+    }
+    #week-special h1 {
+        font-size: 20px;
+    }
+    #week-special .row.weekly{
+        margin-top: 36px;
+        margin-left: 108px;
+         margin-bottom: 0px;
+    }
+    #week-special .weekall{
+        margin-bottom: 30px;
+    }
+    #week-special .weekall img{
+        width: 50%;
+    }
+    #week-special .weekall .week-deatils{
+        width: 56%;
+        top: -23%;
+        left: -9px;
+        }
+        #week-special .deatils h3 {
+            font-size: 10px;
+        }
+        #week-special .deatils p {
+            font-weight: 300;
+            font-size: 8px;
+        }
+    #week-special .deatils .btn {
+        padding: 8px 6px;
+        font-weight: 600;
+        font-size: 7px;
+    }
+    
+    /* end week specail */
+
+    /* start menu */
+    #menu-holder {
+        margin-top: 0px;
+    }
+    #menu-holder h1{
+        margin-bottom: 28px;
+        font-size: 24px;
+    }
+    #menu-holder .media-right .table h3{
+        font-size: 15px;
+    }
+    #menu-holder .menu-price{
+        font-size: 20px;
+    }
+    #menu-holder p{
+        font-size: 13px;
+    }
+    /* end menu */
+
+    /* start birthday */
+    #birthday-holder{
+        margin-top: 16px;
+        height: 300px;
+    }
+    #birthday-holder .birthday {
+        margin-top: 8px;
+    }
+    #birthday-holder .birthday h1{
+        font-size: 20px;
+    }
+    #birthday-holder .birthday h5 {
+        font-size: 12px;
+    }
+    #birthday-holder .birthday p{
+        font-size: 11px;
+    }
+    #birthday-holder .btn {
+        padding: 8px 11px;
+    }
+   
+    /* end birthday */
+   /* start events */
+   #events-holder{
+    margin-top: 8px;
+    width: 97%;
+   }
+   #events-holder .events-describe h1{
+    font-size: 36px;
+    margin-bottom: 42px;
+    font-size: 27px;
+   }
+   #events-holder .weekall{
+    margin-left: 62px;   }
+  
+   #events-holder img{
+    width: 90%;   }
+    #events-holder .weekall .islam{
+        width: 70%;
+        top: 21%;
+        left: 31px;
+    }
+    #events-holder .weekall .islam .btn {
+        padding: 10px 14px;
+    }
+    #events-holder .weekall .islam h1 {
+        
+        font-size: 13px;
+    }
+    #events-holder .weekall .islam p{
+        font-size: 11px;
+    }
+  
+   /* end events */
+   /* start book a table */
+   #booking-table {
+    margin-top: 18px;
+    }
+    #booking-table .booking-describe h1{
+        font-size: 20px;
+        margin-bottom: 34px;
+    }
+    #booking-table .booking-describe p{
+        font-size: 12px;
+    }
+    #booking-table .reserve-table .btn {
+    
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+   /* end  book a table */
+   /* start our shafes */
+   #ourshafes {
+
+    margin-top: 38px;
+
+    }
+    #ourshafes h1 {
+
+        margin-bottom: 64px;
+        font-size: 20px;
+    }
+    #ourshafes .ourshafes-description{
+        margin-bottom: 30px;
+    }
+    #ourshafes .ourshafes-description img{
+        width: 50%;
+    }
+    #ourshafes .ourshafes-description ul {
+
+        right: 92px;
+    }
+    #ourshafes .shafes-description {
+
+        left: 115px;
+        width: 36%;
+        padding: 0px;
+    }
+    #ourshafes .shafes-description h4 {
+
+        font-size: 12px;
+    }
+    #ourshafes .shafes-description h5 {
+
+        font-size: 9px;
+    }
+
+
+   /* end our shafes */
+   /* start blogs */
+   #blog-new {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    width: 97%;
+   }
+   #blog-new .newblog{
+       margin-left: 20px;
+   }
+   #blog-new .blog-new .blog-des{
+    padding: 11px 30px;
+   }
+   /* end blogs */
+   
+
+}
+@media (min-width: 544px) {  
+ /* starting slider */
+ #slider-holder .carousel-inner > .item > img {
+    width: 100%;
+    height: 450px;
+}
+#slider-holder .carousel-caption {
+    bottom: 47px;
+}
+#slider-holder .carousel-caption h1 {
+    font-size: 38px;
+}
+#slider-holder .carousel-caption p{
+    font-size: 16px;
+}
+#slider-holder .carousel-caption .btn{
+    margin-top: 40px;
+}
+#slider-holder .carousel-control.left i, #slider-holder .carousel-control.right i{
+    line-height: 2.5;
+}
+   
+ /* ending slider */
+ /* starting about us */
+#about-holder .hiddeen {
+    display: none;
+}
+ /* ending about about us */
+
+ /* start week specail */
+ #week-special .weekall{
+     margin-bottom: 30px;
+ }
+ #week-special .weekall img{
+    width: 90%;
+ }
+ #week-special .weekall .week-deatils{
+    left: -35px;
+ }
+
+ /* ending week pecail */
+
+ /* starting birthday */
+ #birthday-holder{
+    margin-top: 22px;
+ }
+ /* ending birthday */
+
+/* start events */
+ #events-holder .weekall img{
+     width: 300px;
+ }
+ #events-holder .weekall .islam{
+    left: 14px;
+    width: 280px;
+ }
+/* end events */
+
+/* start our shafes */
+#ourshafes {
+    margin-top: 40px;
+}
+#ourshafes .ourshafes-description {
+   
+    margin-bottom: 30px;
+}
+#ourshafes .shafes-description{
+    left: 28%;
+        width: 45%;
+}
+#ourshafes .ourshafes-description ul{
+    right: 160px;
+}
+/* end our shafes */
+/* start blogs */
+#blog-new .blog-new .blog-des{
+    padding: 3px 30px;
+}
+/*end blogs */
+
+
+
+
+}
+@media (min-width: 768px) {  
+ /* starting slider */
+ #slider-holder .carousel-inner > .item > img{
+    height: 400px;
+ }
+ #slider-holder .carousel-caption {
+    bottom: 18px;
+}
+#slider-holder .carousel-caption h1{
+    font-size: 40px;
+}
+#slider-holder .carousel-caption p{
+    font-size: 15px;
+}
+ /*ending slider */
+ /*start about */
+ #about-holder .hiddeen {
+    display: inline;
+}
+ /* ending about about us */
+
+ /*start  week specail */
+ #week-special .weekall{
+    margin-bottom: 25px;
+ }
+ #week-special .weekall .week-deatils{
+    top: -4%;
+ }
+ #week-special .deatils h3{
+    font-size: 22px;
+ }
+ #week-special .deatils p{
+    font-size: 14px;
+ }
+ #week-special .deatils .btn{
+    padding: 12px 14px;
+ }
+ /* end week specail */
+
+ /* start work on menu*/
+ #menu-holder{
+    margin-top: 0px;
+ }
+ #menu-holder .menu-image{
+    width: 55px;
+ }
+ /* end work menu */
+
+ /* start with birthday party */
+ #birthday-holder{
+    margin-top: 23px;
+ }
+ /* ending with birthday party */
+ /* starting with events */
+ #events-holder{
+    margin-top: 25px;
+ }
+ #events-holder .events-describe h1{
+    margin-bottom: 50px;
+ }
+  #events-holder .weekall img{
+    width: 330px;     
+  }
+  #events-holder .weekall .islam{
+    width: 280px;
+    left: 26px; }
+ /* ending with events */
+
+ /* start shift */
+ #ourshafes .ourshafes-description img{
+    width: 100%;
+ }
+ #ourshafes .ourshafes-description ul {
+    right: 0px;
+ }
+ /* end shifts */
+
+ /* starting blogs */
+ #blog-new {
+
+       
+    margin-bottom: 46px;
+
+}
+ #blog-new .blog-new .blog-des {
+    padding: 11px 30px;
+ }
+ /* end blogs */
+
+ 
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ /* starting slider edit */
+ #slider-holder .carousel-inner > .item > img {
+    height: 500px;
+ }
+ #slider-holder .carousel-caption{
+    bottom: 70px;
+ }
+ #slider-holder .carousel-caption h1{
+    font-size: 36px;
+ }
+ #slider-holder .carousel-caption p{
+    font-size: 16px;
+    margin-bottom: 12px;
+ }
+ #slider-holder .carousel-caption .btn{
+    margin-top: 20px;
+ }
+
+ /* ending slider edit */
+ /*start about */
+ #about-holder .hiddeen {
+    display: inline;
+}
+ /* ending about about us */
+ /* starting week specail */
+ #week-special .weekall .week-deatils{
+    top: 9%;
+ }
+ /* ending week special */
+ /* starting birthday party */
+ #birthday-holder .birthday{
+    margin-top: 27px;
+ }
+ /* ending birthday party */
+
+ /* starting edit on events */
+ #events-holder .autoplay{
+    margin-left: 45px;
+ }
+ #events-holder .weekall .islam{
+    width: 280px;
+    left: 45px;
+ }
+ 
+ /* ening edit on events */
+ /* starting our shafes team */
+ #ourshafes .ourshafes-description ul{
+    right: 0;
+ }
+ #ourshafes .ourshafes-description img{
+    width: 100%;
+ }
+ /* ending our shafes team */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    /* starting with slider */
+    #slider-holder .carousel-inner > .item > img
+{
+    
+    height: 700px;
+}
+#slider-holder .carousel-caption{
+
+    bottom: 147px;
+ } 
+#slider-holder .carousel-caption h1{
+    font-size: 54px;
+ }
+ #slider-holder .carousel-caption p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+ }
+
+    /* ending slider */
+    /*start about */
+ #about-holder .hiddeen {
+    display: inline;
+}
+ /* ending about about us */
+
+    /* start week specail */
+    #week-special .weekall .week-deatils {
+        position: absolute;
+        left: 0px;
+        top: 25%;
+        width: 100%;
+       
+    }
+    #week-special .weekall img {
+        width: 100%;
+    }
+    
+    
+    #week-special .deatils h3{
+        font-size: 26px;
+      
+        
+    }
+    #week-special .deatils p{
+  
+    font-size: 15px;
+    
+    }
+    #week-special .deatils .btn{
+     
+        padding: 0.9em 5em;
+       
+    }
+    /* end week speical */
+    /* starting events */
+    #events-holder .autoplay{
+        margin-left: 0;
+    }
+    
+    #events-holder .weekall img{
+        width: 95%;
+    }
+    /*Ending events */
+    /* starting with menu */
+    #menu-holder .menu-image{
+        width: auto;
+     }
+
+    /* ending with menu */
+    /* starting blogs */
+    
+    #blog-new .blog-new .blog-des {
+        padding: 24px 30px;
+    }
+ /* end blogs */
+}
+ 
