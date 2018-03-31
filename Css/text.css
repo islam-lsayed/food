@@ -91,6 +91,8 @@ a{
     width: 50px;
     height: 50px;
     line-height: 1.6;
+    border-radius: 4px;
+
 }
 
 #slider-holder .carousel-control{
@@ -168,6 +170,7 @@ font-weight: 400;
 line-height: 1.6;
 
 }
+
 #about-holder .about-holder-description .btn{
     padding: 15px 27px;
     font-size: 15px;
@@ -181,6 +184,9 @@ line-height: 1.6;
 #about-holder .about-holder-description .btn:hover{
     color: black;
     background-color: #fff;
+}
+#about-holder .about-holder-profile img{
+border-radius: 3px;
 }
 #about-holder .about-holder-profile  {
     position: relative;
@@ -253,9 +259,17 @@ font-family: 'Courgette', cursive;
 
     
 }
+#week-special  .weekall img{
+    border-radius: 9px;
+    -webkit-box-shadow: -13px -13px 13px -13px rgba(5,4,5,0.71);
+    -moz-box-shadow: -13px -13px 13px -13px rgba(5,4,5,0.71);
+    box-shadow: -13px -13px 13px -13px rgba(5,4,5,0.71);
+}
 #week-special  .weekall img,#events-holder  .weekall img{
     filter: brightness(1);
     transition: 0.4s;
+   
+
 }
 #week-special .weekall .week-deatils {
     position: absolute;
@@ -562,6 +576,8 @@ font-size: 15px;
 #ourshafes .ourshafes-description img{
     filter: brightness(1);
     transition: 0.3s;
+    border-radius: 5px;
+
 }
 #ourshafes .ourshafes-description:hover img{
     filter: brightness(0.4)
@@ -775,7 +791,7 @@ font-size: 15px;
 /* responsvie Design */
 @media(max-width:1200px){
     /* starting about us */
-    about-holder .about-holder-profile .btn {
+    #about-holder .about-holder-profile .btn {
         position: absolute;
         left: 16%;
         top: 50%;
@@ -1471,7 +1487,7 @@ font-size: 15px;
 
    }
    #ourshafes .shafes {
-    width: 450px;
+    width: 100%;
 }
    #ourshafes h1 {
 
@@ -1481,13 +1497,14 @@ font-size: 15px;
    #ourshafes .ourshafes-description{
     margin-bottom: 20px;
     margin-left: 0;
+    overflow: hidden;
    }
    #ourshafes .ourshafes-description img{
-    width: 70%;
+    width: 100%;
    }
   #ourshafes .ourshafes-description ul {
 
-    right: 87px;
+    right: 0px;
    }
    #ourshafes .ourshafes-description ul a{
     width: 35px;
@@ -1563,7 +1580,7 @@ font-size: 15px;
 @media(max-width:375px){
     /* tsarrt our shafes */
     #ourshafes .shafes {
-        width: 333px;
+        width: 100%;
         
     }
     #ourshafes .shafes-description{
@@ -1571,7 +1588,7 @@ font-size: 15px;
     }
     #ourshafes .ourshafes-description ul {
 
-        right: 62px;    
+        right: 0px;    
     }
     /* end our shafes */
 }
